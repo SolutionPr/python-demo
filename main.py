@@ -65,7 +65,6 @@ def parse_period(period_str):
         total_days += int(num) * period_map[unit]
     
     return total_days
-https://github.com/SolutionPr/python-demo
 
 # Function to handle user queries
 def handle_query(api_key, question, ticker="AAPL"):
